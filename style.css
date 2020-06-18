@@ -1,7 +1,9 @@
 :root {
   --main-text: #333;
   --main-bg: #fff;
-  --accent-1: #43c59e; }
+  --secondary-bg: #f3f3f3;
+  --accent-1: #43c59e;
+  --accent-2: #30c5ff; }
 
 html {
   box-sizing: border-box;
@@ -21,13 +23,26 @@ html {
     justify-content: flex-start;
     align-items: center;
     text-align: center; }
+    html body h1,
+    html body h2,
+    html body h3,
+    html body h4,
+    html body h5,
+    html body h6,
+    html body p {
+      padding: 0;
+      margin: 0; }
     html body header {
       background-color: var(--accent-1);
       width: 100%;
       padding: 1em 0.5em; }
-      html body header h1,
-      html body header h2 {
-        padding: 0;
-        margin: 0; }
+    html body main section {
+      padding: 1em 2em; }
+      html body main section h3 {
+        margin-bottom: 1em; }
+      html body main section:nth-of-type(odd) {
+        background-color: var(--main-bg); }
+      html body main section:nth-of-type(even) {
+        background-color: var(--secondary-bg); }
 
 /*# sourceMappingURL=style.css.map */
