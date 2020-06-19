@@ -94,6 +94,9 @@ html {
        font-size: 1.2em;
        a.live-site {
         text-decoration: none;
+        i {
+         font-size: 0.8em;
+        }
        }
       }
       p.description {
@@ -103,6 +106,7 @@ html {
        align-self: center;
        text-decoration: none;
        margin-bottom: 0.5em;
+       //
       }
      }
     }

@@ -79,6 +79,8 @@ html {
             font-size: 1.2em; }
             html body main section.projects .card h4 a.live-site {
               text-decoration: none; }
+              html body main section.projects .card h4 a.live-site i {
+                font-size: 0.8em; }
           html body main section.projects .card p.description {
             margin-bottom: 0.5em; }
           html body main section.projects .card a.github {
